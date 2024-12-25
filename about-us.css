@@ -1,0 +1,303 @@
+.navbar-brand {
+    font-size: 30px;
+}
+
+.nav-link {
+    font-size: 18px !important;
+    font-weight: 500;
+}
+
+.head-section {
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+
+.parent {
+    background-image: url("elevated-view-coffee-cup-spiral-notepad-eyeglasses-laptop-mouse-blue-backdrop_23-2148178553.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.bhh {
+    font-size: 30px;
+}
+
+.gana {
+    width: 600px;
+    margin-left: 20px;
+    font-style: italic;
+    margin-top: 200px;
+    overflow: hidden;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar a {
+    font-weight: bold;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.hide {
+    display: none;
+}
+
+#button:hover {
+    background-color: #0056b3;
+}
+
+#button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0.75;
+}
+
+.ionicons {
+    color: #0a58ca;
+    background-color: #f2f2f2;
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 12px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .active {
+    background-color: #0a58ca !important;
+    border: none;
+    color: #fff !important;
+}
+
+.navbar {
+    background-color: #efecec;
+    overflow-x: hidden;
+    opacity: 0.75;
+    font-weight: bold;
+}
+
+.navbar a {
+    display: block;
+    color: rgb(16, 15, 15);
+    padding: 2px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar .koko:hover {
+    background-color: #ddd;
+    color: rgb(19, 19, 19);
+    border-radius: 10px;
+}
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /* يجعل القائمة تظهر من اليمين */
+    background-color: #efe4e4;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.side-nav a {
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-nav a:hover {
+    color: rgb(14, 13, 13);
+}
+
+.side-nav .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+}
+
+.navbar .menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a {
+        display: none;
+    }
+    .navbar .menu-icon {
+        display: block;
+        color: white;
+        font-size: 25px;
+        padding: 14px 20px;
+        cursor: pointer;
+    }
+}
+
+li:hover {
+    color: #2a20eb;
+}
+
+.img1 {
+    width: 50px;
+    height: 50px;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.bhh {
+    color: black;
+}
+
+.str {
+    width: 200px;
+    height: 200px;
+    transform: translateX(610px);
+}
+
+h4 {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media(max-width:700px) {
+    #btnf {
+        display: none;
+    }
+    .bhh {
+        font-size: 15px;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    * {
+        overflow-x: hidden;
+    }
+    .str {
+        width: 200px;
+        height: 200px;
+    }
+    .stm {
+        margin-left: 50px;
+    }
+}
+
+footer {
+    background-color: rgba(59, 59, 60, 0.662);
+    color: #fefafa;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 10px;
+    max-width: 300px;
+}
+
+.footer-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #f0ecec;
+}
+
+.footer-section ul li a:hover {
+    color: #2d37f8;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-links {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .footer-links li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+.fw {
+    font-size: 22px;
+}
+
+.sec {
+    width: 350px;
+    text-align: center;
+}
